@@ -12,7 +12,7 @@ import GridContainer from '../../StyledItems/GridContainer.elements'
 
 const HomeScreen = ({text}) => {
   return (
-    <Container>
+    <>
 
     <ImageWrapper>
         <AliceCarousel autoPlay autoPlayInterval="2000">
@@ -67,7 +67,7 @@ const HomeScreen = ({text}) => {
       </GridContainer>
 
       
-    </Container>
+    </>
   )
 }
 

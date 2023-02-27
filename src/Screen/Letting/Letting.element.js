@@ -6,8 +6,9 @@ const LettingContainer = styled.h2 `
    background-color: white;
    border-radius: 20px;
     align-item: center;
-    box-shadow: 6px 6px #aeaeae;
+    box-shadow: 2px 2px #aeaeae;
+    border: 1px solid #dee2e6;
+   
     
-
 `
 export default LettingContainer

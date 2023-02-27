@@ -1,10 +1,11 @@
 import React from 'react'
-import { Button, Container, Form } from 'react-bootstrap'
+import { Button,  Form } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
+import FormContainer from './Login.element'
 
 const Login = () => {
   return (
-    <Container >
+    <FormContainer >
       <Form>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>
@@ -23,7 +24,7 @@ const Login = () => {
         Submit
       </Button>
       </Form>
-    </Container>
+    </FormContainer>
     
   )
 }

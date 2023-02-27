@@ -3,6 +3,7 @@ const GridContainer = styled.div `
  display: grid;
 grid-template-columns: auto auto auto auto;
 grid-gap: 10px;
+margin-bottom: 5rem;
 .grid-item {
     padding: 10px;
    

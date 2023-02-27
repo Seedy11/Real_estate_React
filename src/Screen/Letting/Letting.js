@@ -11,7 +11,7 @@ import LettingContainer from './Letting.element'
 function Letting() {
   const bedroom = ['1 Bedroom','2 Bedroom','3 Bedroom','4 Bedroom','5 Bedroom']
   return (
-    <Container>
+    <>
     <LettingContainer>
     
        <h1>Letting</h1>
@@ -29,7 +29,7 @@ function Letting() {
     
     </LettingContainer>
     <LargeContainer />
-    </Container>
+    </>
   )
 }
 

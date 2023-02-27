@@ -12,7 +12,7 @@ const LargeContainer = () => {
         <CardContainer>
         <GridContainer>
         <Col>
-        <img src={Image} className="card-img-top" alt="..." style={{width: '40rem',borderRadius: '1rem',}}/>
+        <img src={Image} className="card-img-top" alt="..." />
         </Col>
         <Col style={{alignItems: 'center',}}>
 

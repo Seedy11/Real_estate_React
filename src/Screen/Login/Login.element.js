@@ -1,13 +1,15 @@
 import styled from "styled-components";
 
-const NavHeader = styled.h2 `
- color: white;
- padding: 3rem;
- background-color: #f2f2f2;
+const FormContainer = styled.h2 `
+ background-color: white;
+ padding : 5rem 10rem;
   text-align: center;
-
-  .defaultActiveKey{
-    background-color: red;
-  }
+  border-radius: 1rem;
+  margin: 5rem 0rem;
+  border: 1px solid #dee2e6;
+  @media only screen and (max-width: 600px) {
+    padding : 2rem 4rem;
+    font-size: 1rem;
+    }
 `
-export default NavHeader
+export default FormContainer

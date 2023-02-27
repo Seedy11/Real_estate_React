@@ -1,5 +1,4 @@
 import React from 'react'
-import { Container } from 'react-bootstrap'
 import ContainerButton from './Button.element'
 
 const Button = ({text}) => {
